@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Timer</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <section id="timer">
+        <div class="timer_container" id="timer1">
+            <div class="gauge">
+                <div class="bar"></div>
+                <div class="hide"></div>
+                <div class="triangle"></div>
+            </div>
+            <div class="timer_body">
+                <div class="timers">
+                    <div class="timer_date">
+                        2015/<br>01/01
+                    </div>
+                    <div class="timer_liter">00:00</div>
+                </div>
+                <div class="buttons">
+                    <button class="stop_button">start</button>
+                    <button class="reset_button">reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="timer_container" id="timer2">
+            <div class="gauge">
+                <div class="bar"></div>
+                <div class="hide"></div>
+                <div class="triangle"></div>
+            </div>
+            <div class="timer_body">
+                <div class="timers">
+                    <div class="timer_date">
+                        2015/<br>01/01
+                    </div>
+                    <div class="timer_liter">00:00</div>
+                </div>
+                <div class="buttons">
+                    <button class="stop_button">start</button>
+                    <button class="reset_button">reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="detail">
+        <div class="option">
+            <div id="speed">
+                <input id="speedProperty">
+                <span>秒</span>
+                <button class="submit_sec">決定</button>
+            </div>
+            <div class="file"><input type="file" id="file_select"></div>
+        </div>
+        <div class="display"><textarea id="debug"></textarea></div>
+        <div class="selected">
+            <select>
+                <!--<option>Orange</option>
+                <option>Lemon</option>
+                <option>Strawberry</option>-->
+            </select>
+        </div>
+        <div class="memo"><textarea></textarea></div>
+        <div class="export"><button class="export">データをエクスポート</div>
+    </section>
+</div>
+
+<div class="tmp">
+    <input id="tmpTimeSet">
+    <span>秒</span>
+    <button class="submit_tmp">決定</button>
+</div>
+
+</body>
+</html>
