@@ -81,10 +81,21 @@ section {
   align-items: end;
 }
 
+.timers button {
+  flex: 1;
+  font-size: 1em;
+  background-color: #cd9732;
+  margin: 5% 0;
+  padding: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /*border: solid;*/
+}
+
 .timer_date {
   flex: 2;
   font-size: 1em;
-  height: 60%;
   background-color: yellowgreen;
   margin: 5% 0;
   padding: auto 0;
@@ -95,7 +106,7 @@ section {
 
 .timer_liter {
   flex: 5;
-  font-size: 6em;
+  font-size: 4em;
   background-color: #808080;
   margin: 5% 0;
   padding: auto 0;
@@ -117,7 +128,7 @@ section {
   background-color: lightblue;
   text-align: center;
   border: none;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .reset_button {
@@ -126,7 +137,7 @@ section {
   text-align: center;
   padding: auto 0;
   border: none;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #detail {
@@ -187,9 +198,9 @@ textarea {
 }
 
 .selected {
-  flex: 1;
-  margin-bottom: 10px;
-  padding: 10px;
+  flex: 0.5;
+  margin-bottom: 0px;
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,12 +235,12 @@ button {
 
 .base {
   width: 50vw;
-  height: 80vh;
+  height: 90vh;
   background-color: white;
   opacity: 1;
   position: absolute;
   left: 25vw;
-  top: 10vh;
+  top: 5vh;
   display: none;
   flex-direction: column;
 }
