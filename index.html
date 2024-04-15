@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
 <div class="container">
     <section id="timer">
         <div class="timer_container" id="timer1">
@@ -60,24 +59,64 @@
             </div>
             <div class="file"><input type="file" id="file_select"></div>
         </div>
-        <div class="display"><textarea id="debug"></textarea></div>
+        <div class="display"><textarea></textarea></div>
         <div class="selected">
-            <select>
+            <select id="selector">
                 <!--<option>Orange</option>
                 <option>Lemon</option>
                 <option>Strawberry</option>-->
             </select>
         </div>
         <div class="memo"><textarea></textarea></div>
-        <div class="export"><button class="export">データをエクスポート</div>
+        <div class="export">
+            <button class="addMode">データの追加</button>
+            <button class="deleteMode">データの削除</button>
+            <button class="export">データをエクスポート</button>
+        </div>
     </section>
 </div>
 
-<div class="tmp">
+<!--<div class="tmp">
     <input id="tmpTimeSet">
     <span>秒</span>
     <button class="submit_tmp">決定</button>
+</div>-->
+
+<div class="over"></div>
+<div class="base">
+    <div class="closeButton">
+        <div>新たな時間を追加</div>
+        <button>閉じる</button>
+    </div>
+    <div class="addDisplayName">
+        表示名を追加:<br>
+        <input></input>
+    </div>
+    <div class="addName">
+        名前を追加:<br>
+        <textarea></textarea>
+    </div>
+    <div class="addDate">
+        日付を追加:<br>
+        <input class="year"></input>年
+        <input class="month"></input>月
+        <input class="date"></input>日
+        <input class="hour"></input>時
+        <input class="minute"></input>分
+    </div>
+    <div class="addSec">
+        秒数を追加:<br>
+        <input></input>秒
+    </div>
+    <div class="addMemo">
+        メモを追加:<br>
+        <textarea></textarea>
+    </div>
+    <div class="submitButton">
+        <button>決定</button>
+    </div>
 </div>
+
 
 </body>
 </html>
