@@ -74,5 +74,5 @@ document.querySelectorをせこせこ使っていた頃の汚いコードです�
 もちろんcssもぐちゃってます。~~動けばいいんだよ~~
 
 ## LICENSE
-MIT
+あぱっち
 
